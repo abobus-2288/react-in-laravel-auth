@@ -15,3 +15,4 @@ yarn-error.log
 /.vscode
 /bootstrap/cache
 /tests
+/storage/framework/

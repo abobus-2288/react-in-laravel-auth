@@ -53,7 +53,7 @@ Object.defineProperty(exports, "__esModule", ({
 var react_1 = __importDefault(__webpack_require__(/*! react */ "./node_modules/react/index.js"));
 
 var Header = function Header() {
-  return react_1["default"].createElement("div", null, react_1["default"].createElement(Header, null));
+  return react_1["default"].createElement("div", null);
 };
 
 exports["default"] = Header;
