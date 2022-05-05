@@ -4,10 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="563ba3bb-5fc5-4174-936b-8ac43af5f538" name="Changes" comment="Front 1">
+    <list default="true" id="563ba3bb-5fc5-4174-936b-8ac43af5f538" name="Changes" comment="deps">
       <change beforePath="$PROJECT_DIR$/.idea/codestream.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/codestream.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/Header/Header.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/Header/Header.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/App.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/Content/Main/Main.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/Content/Main/Main.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/Content/Register/Register.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/Content/Register/Register.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../views/welcome.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/../views/welcome.blade.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,9 +26,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="CSS File" />
         <option value="TSX File" />
         <option value="TypeScript File" />
-        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -69,6 +73,9 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
   <component name="ProjectId" id="28EdOoGBgSSbgkOzSBFcSvxVivF" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="1" id="Add" />
@@ -88,7 +95,8 @@
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;project.propVCSSupport.CommitDialog&quot;,
+    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
     &quot;ts.external.directory.path&quot;: &quot;C:\\Users\\EugeneLobach\\AppData\\Local\\JetBrains\\Toolbox\\apps\\WebStorm\\ch-0\\221.5080.193\\plugins\\JavaScriptLanguage\\jsLanguageServicesImpl\\external&quot;
   }
 }</component>
@@ -115,7 +123,14 @@
       <workItem from="1651064509858" duration="368000" />
       <workItem from="1651075208443" duration="7640000" />
       <workItem from="1651148633085" duration="453000" />
-      <workItem from="1651160687914" duration="3544000" />
+      <workItem from="1651160687914" duration="9748000" />
+      <workItem from="1651175990002" duration="1837000" />
+      <workItem from="1651232786057" duration="1557000" />
+      <workItem from="1651245197162" duration="1819000" />
+      <workItem from="1651254633014" duration="1242000" />
+      <workItem from="1651596842845" duration="5335000" />
+      <workItem from="1651672052050" duration="14178000" />
+      <workItem from="1651753460729" duration="3609000" />
     </task>
     <task id="LOCAL-00001" summary="deps">
       <created>1651083617090</created>
@@ -138,11 +153,39 @@
       <option name="project" value="LOCAL" />
       <updated>1651086024766</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Header.tsx added Router and Material Ui AppBar">
+      <created>1651166647408</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1651166647408</updated>
+    </task>
+    <task id="LOCAL-00005" summary="deps">
+      <created>1651682410643</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1651682410643</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+    <option name="exactExcludedFiles">
+      <list>
+        <option value="$PROJECT_DIR$/components/Content/Register/Register.js" />
+        <option value="$PROJECT_DIR$/components/Content/Login/Login.js" />
+        <option value="$PROJECT_DIR$/components/Content/Main/Main.js" />
+        <option value="$PROJECT_DIR$/GraphQL/Mutations/Auth/Login.js" />
+        <option value="$PROJECT_DIR$/GraphQL/Mutations/Auth/Register.js" />
+        <option value="$PROJECT_DIR$/index.js" />
+        <option value="$PROJECT_DIR$/Providers.js" />
+        <option value="$PROJECT_DIR$/App.js" />
+        <option value="$PROJECT_DIR$/components/Forms/LoginInput.js" />
+        <option value="$PROJECT_DIR$/components/Header/Header.js" />
+      </list>
+    </option>
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -156,9 +199,12 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="deps" />
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <MESSAGE value=".idea" />
     <MESSAGE value="Front 1" />
-    <option name="LAST_COMMIT_MESSAGE" value="Front 1" />
+    <MESSAGE value="Header.tsx added Router and Material Ui AppBar" />
+    <MESSAGE value="deps" />
+    <option name="LAST_COMMIT_MESSAGE" value="deps" />
+    <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
 </project>
