@@ -16,3 +16,4 @@ yarn-error.log
 /bootstrap/cache
 /tests
 /storage/framework/
+/public/mix-manifest.json
