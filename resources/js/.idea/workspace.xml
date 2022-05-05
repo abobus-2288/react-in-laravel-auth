@@ -4,8 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="563ba3bb-5fc5-4174-936b-8ac43af5f538" name="Changes" comment="deps">
-      <change beforePath="$PROJECT_DIR$/.idea/codestream.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/codestream.xml" afterDir="false" />
+    <list default="true" id="563ba3bb-5fc5-4174-936b-8ac43af5f538" name="Changes" comment=".idea">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/App.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/components/Content/Main/Main.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/Content/Main/Main.tsx" afterDir="false" />
@@ -130,7 +129,7 @@
       <workItem from="1651254633014" duration="1242000" />
       <workItem from="1651596842845" duration="5335000" />
       <workItem from="1651672052050" duration="14178000" />
-      <workItem from="1651753460729" duration="3609000" />
+      <workItem from="1651753460729" duration="3819000" />
     </task>
     <task id="LOCAL-00001" summary="deps">
       <created>1651083617090</created>
@@ -167,7 +166,14 @@
       <option name="project" value="LOCAL" />
       <updated>1651682410643</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary=".idea">
+      <created>1651768190920</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1651768190920</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -200,11 +206,11 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
-    <MESSAGE value=".idea" />
     <MESSAGE value="Front 1" />
     <MESSAGE value="Header.tsx added Router and Material Ui AppBar" />
     <MESSAGE value="deps" />
-    <option name="LAST_COMMIT_MESSAGE" value="deps" />
+    <MESSAGE value=".idea" />
+    <option name="LAST_COMMIT_MESSAGE" value=".idea" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
 </project>
