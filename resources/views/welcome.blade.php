@@ -7,6 +7,7 @@
     <title>Document</title>
 </head>
 <body>
+<script lang="javascript">var exports = {};</script>
 <div id="app"></div>
 <script src="{{asset('js/index.js')}}"></script>
 </body>
