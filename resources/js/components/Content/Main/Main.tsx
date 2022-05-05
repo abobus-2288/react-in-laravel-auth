@@ -1,10 +1,16 @@
 import React from 'react';
 
+import {Container, Typography} from '@mui/material'
+
 const Main = () => {
     return (
-        <div>
-            Main component
-        </div>
+        <Container>
+            <Typography>
+                <h1>
+                    Main component
+                </h1>
+            </Typography>
+        </Container>
     )
 }
 
