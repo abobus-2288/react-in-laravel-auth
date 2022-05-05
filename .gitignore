@@ -17,3 +17,4 @@ yarn-error.log
 /tests
 /storage/framework/
 /public/mix-manifest.json
+/resources/js/.idea
